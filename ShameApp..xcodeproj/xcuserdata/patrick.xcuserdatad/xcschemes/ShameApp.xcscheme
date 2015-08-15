@@ -20,20 +20,6 @@
                ReferencedContainer = "container:ShameApp..xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD870F401B49E31C00BEBC7F"
-               BuildableName = "ShameApp.temp_caseinsensitive_renameTests.xctest"
-               BlueprintName = "ShameAppTest"
-               ReferencedContainer = "container:ShameApp..xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -42,16 +28,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD870F401B49E31C00BEBC7F"
-               BuildableName = "ShameApp.temp_caseinsensitive_renameTests.xctest"
-               BlueprintName = "ShameAppTest"
-               ReferencedContainer = "container:ShameApp..xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

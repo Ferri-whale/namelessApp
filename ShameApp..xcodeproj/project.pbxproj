@@ -11,10 +11,12 @@
 		CD870F2E1B49E31C00BEBC7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD870F2D1B49E31C00BEBC7F /* main.m */; };
 		CD870F311B49E31C00BEBC7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD870F301B49E31C00BEBC7F /* AppDelegate.m */; };
 		CD870F341B49E31C00BEBC7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD870F331B49E31C00BEBC7F /* ViewController.m */; };
-		CD870F371B49E31C00BEBC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD870F351B49E31C00BEBC7F /* Main.storyboard */; };
 		CD870F391B49E31C00BEBC7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD870F381B49E31C00BEBC7F /* Images.xcassets */; };
 		CD870F3C1B49E31C00BEBC7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD870F3A1B49E31C00BEBC7F /* LaunchScreen.xib */; };
 		CD870F481B49E31C00BEBC7F /* namelessAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD870F471B49E31C00BEBC7F /* namelessAppTests.m */; };
+		CDBB35831B798AA400D1DC30 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBB35821B798AA400D1DC30 /* Home.storyboard */; };
+		CDBB35891B798B0100D1DC30 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBB35881B798B0100D1DC30 /* HomeViewController.m */; };
+		CDBB358B1B7992FC00D1DC30 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBB358A1B7992FC00D1DC30 /* main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +39,15 @@
 		CD870F301B49E31C00BEBC7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD870F321B49E31C00BEBC7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CD870F331B49E31C00BEBC7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CD870F361B49E31C00BEBC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD870F381B49E31C00BEBC7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD870F3B1B49E31C00BEBC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CD870F411B49E31C00BEBC7F /* ShameApp.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShameApp.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD870F461B49E31C00BEBC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD870F471B49E31C00BEBC7F /* namelessAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = namelessAppTests.m; sourceTree = "<group>"; };
+		CDBB35821B798AA400D1DC30 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		CDBB35871B798B0100D1DC30 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CDBB35881B798B0100D1DC30 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CDBB358A1B7992FC00D1DC30 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		FAF456B94EB94261D1AEE06A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,10 +105,13 @@
 				CD870F301B49E31C00BEBC7F /* AppDelegate.m */,
 				CD870F321B49E31C00BEBC7F /* ViewController.h */,
 				CD870F331B49E31C00BEBC7F /* ViewController.m */,
-				CD870F351B49E31C00BEBC7F /* Main.storyboard */,
 				CD870F381B49E31C00BEBC7F /* Images.xcassets */,
 				CD870F3A1B49E31C00BEBC7F /* LaunchScreen.xib */,
 				CD870F2B1B49E31C00BEBC7F /* Supporting Files */,
+				CDBB35821B798AA400D1DC30 /* Home.storyboard */,
+				CDBB35871B798B0100D1DC30 /* HomeViewController.h */,
+				CDBB35881B798B0100D1DC30 /* HomeViewController.m */,
+				CDBB358A1B7992FC00D1DC30 /* main.storyboard */,
 			);
 			path = namelessApp;
 			sourceTree = "<group>";
@@ -146,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD870F271B49E31C00BEBC7F /* ShameApp.temp_caseinsensitive_rename */ = {
+		CD870F271B49E31C00BEBC7F /* ShameApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD870F4B1B49E31C00BEBC7F /* Build configuration list for PBXNativeTarget "ShameApp.temp_caseinsensitive_rename" */;
+			buildConfigurationList = CD870F4B1B49E31C00BEBC7F /* Build configuration list for PBXNativeTarget "ShameApp" */;
 			buildPhases = (
 				A67C120083F346E7CF67AABB /* Check Pods Manifest.lock */,
 				CD870F241B49E31C00BEBC7F /* Sources */,
@@ -160,14 +168,14 @@
 			);
 			dependencies = (
 			);
-			name = ShameApp.temp_caseinsensitive_rename;
+			name = ShameApp;
 			productName = namelessApp;
 			productReference = CD870F281B49E31C00BEBC7F /* ShameApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CD870F401B49E31C00BEBC7F /* ShameApp.temp_caseinsensitive_renameTests */ = {
+		CD870F401B49E31C00BEBC7F /* ShameAppTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD870F4E1B49E31C00BEBC7F /* Build configuration list for PBXNativeTarget "ShameApp.temp_caseinsensitive_renameTests" */;
+			buildConfigurationList = CD870F4E1B49E31C00BEBC7F /* Build configuration list for PBXNativeTarget "ShameAppTest" */;
 			buildPhases = (
 				CD870F3D1B49E31C00BEBC7F /* Sources */,
 				CD870F3E1B49E31C00BEBC7F /* Frameworks */,
@@ -178,7 +186,7 @@
 			dependencies = (
 				CD870F431B49E31C00BEBC7F /* PBXTargetDependency */,
 			);
-			name = ShameApp.temp_caseinsensitive_renameTests;
+			name = ShameAppTest;
 			productName = namelessAppTests;
 			productReference = CD870F411B49E31C00BEBC7F /* ShameApp.temp_caseinsensitive_renameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -214,8 +222,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD870F271B49E31C00BEBC7F /* ShameApp.temp_caseinsensitive_rename */,
-				CD870F401B49E31C00BEBC7F /* ShameApp.temp_caseinsensitive_renameTests */,
+				CD870F271B49E31C00BEBC7F /* ShameApp */,
+				CD870F401B49E31C00BEBC7F /* ShameAppTest */,
 			);
 		};
 /* End PBXProject section */
@@ -225,9 +233,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD870F371B49E31C00BEBC7F /* Main.storyboard in Resources */,
 				CD870F3C1B49E31C00BEBC7F /* LaunchScreen.xib in Resources */,
 				CD870F391B49E31C00BEBC7F /* Images.xcassets in Resources */,
+				CDBB35831B798AA400D1DC30 /* Home.storyboard in Resources */,
+				CDBB358B1B7992FC00D1DC30 /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +290,7 @@
 				CD870F341B49E31C00BEBC7F /* ViewController.m in Sources */,
 				CD870F311B49E31C00BEBC7F /* AppDelegate.m in Sources */,
 				CD870F2E1B49E31C00BEBC7F /* main.m in Sources */,
+				CDBB35891B798B0100D1DC30 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,20 +307,12 @@
 /* Begin PBXTargetDependency section */
 		CD870F431B49E31C00BEBC7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CD870F271B49E31C00BEBC7F /* ShameApp.temp_caseinsensitive_rename */;
+			target = CD870F271B49E31C00BEBC7F /* ShameApp */;
 			targetProxy = CD870F421B49E31C00BEBC7F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CD870F351B49E31C00BEBC7F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD870F361B49E31C00BEBC7F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CD870F3A1B49E31C00BEBC7F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -472,7 +474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD870F4B1B49E31C00BEBC7F /* Build configuration list for PBXNativeTarget "ShameApp.temp_caseinsensitive_rename" */ = {
+		CD870F4B1B49E31C00BEBC7F /* Build configuration list for PBXNativeTarget "ShameApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD870F4C1B49E31C00BEBC7F /* Debug */,
@@ -481,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD870F4E1B49E31C00BEBC7F /* Build configuration list for PBXNativeTarget "ShameApp.temp_caseinsensitive_renameTests" */ = {
+		CD870F4E1B49E31C00BEBC7F /* Build configuration list for PBXNativeTarget "ShameAppTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD870F4F1B49E31C00BEBC7F /* Debug */,
